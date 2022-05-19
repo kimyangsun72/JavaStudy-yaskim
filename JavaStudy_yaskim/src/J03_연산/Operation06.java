@@ -6,10 +6,10 @@ public class Operation06 {
 		int num = 80;
 		
 		String result = num % 4 == 0 ? "4의 배수" : "4의 배수가 아님";
-		boolean results2 = num %4 == 0 ? true : false;  // ctl + alt = 화살표
+		boolean results2 = num %4 == 0 ? true : false;  // 줄복사-ctl + alt = 화살표, 줄이동- alt+화살표
 		int result3 = num %4 == 0 ? 1 : 0;
 		
-		boolean result2 = num %4 == 0 ? true: false; // 단축키 ctrl + sh +l
+		boolean result2 = num %4 == 0 ? true: false; // 단축키List ctrl + sh +l
 		
 		
 		System.out.println(num % 4 == 0 ? "4의 배수" : "4의 배수가 아님");
@@ -17,7 +17,7 @@ public class Operation06 {
 		                             // 조건문을 사용하지 않더라도, 삼항연산자는 조건문을 사용할 수 있다.
 		
 		
-		System.out.println(); // control + space => 자동완성
+		System.out.println(); // control + space => 자동완성, import - Ct+Sh+o
 		
 
 	}
