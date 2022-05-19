@@ -6,10 +6,10 @@ public class SwitchCase {
 		int num = 29;
 		char c = 'c';
 		String str = "김양선";
-		str = "강주현"; // default 적어주는 이유임 - 
+		str = "강주현"; // 찾고자하는 값이 case에 없으면 default 적어주는 이유임 - 
 		
 		
-		switch(num/10) {
+		switch(num/10) {                        // switch()안에는 찾고자하는case 값을 넣는다.
 			case 1:                            // :콜론을 사용함, so 중괄호가 없으니 지정된 위치 이후를 전부 실행함
 				System.out.println("case1");
 				break;                           // case는 해당 부분 이하 전부를 실행하므로 해당case만 실행하려면 break를 걸어줌
