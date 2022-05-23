@@ -7,7 +7,7 @@ public class Method03 {
 	}
 	
 	public static void test1(int num) {
-		System.out.println("int자료형 매개변수가 없는 test1 호출");
+		System.out.println("int자료형 매개변수가 있는 test1 호출");
 	}
 	
 	public static void test1(int num, int num2) {
@@ -19,10 +19,10 @@ public class Method03 {
 	}
 	
 	public static void test1(int num, double dNum) {
-		System.out.println("int자료형 다음에  매개변수가 둘인 test1 호출");
+		System.out.println("int자료형 다음에 double자료형, 매개변수가 둘인 test1 호출");
 	}
 	public static void test1(double dNum, int num ) {
-		System.out.println("double자료형 다음에 int자료형 매개변수가 둘인 test1 호출");
+		System.out.println("double자료형 다음에 int자료형, 매개변수가 둘인 test1 호출");
 	}
 	public static void main(String[] args) {
 		test1();

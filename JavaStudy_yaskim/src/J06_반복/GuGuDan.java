@@ -26,7 +26,7 @@ public class GuGuDan {
 				
 				System.out.println((dan +2)+ "x" +(i+1) + "=" + result);
 			}
-			System.out.println();
+			//System.out.println();
 		}
 
 	}

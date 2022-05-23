@@ -9,8 +9,7 @@ public class Method02 {
 	}
 	
 	// 매개변수는 있고 반환이 없는(void = return할 게 없다) 메소드
-	
-	public static void test2(int age, int year) {
+	public static void test2(int age, int year) {  // 반환은 없지만 매개변수로 반환할 수 있다
 		System.out.println("나이:"+age);      // 메소드 값에 연결해주는 매개변수 역할을 한다
 		System.out.println("출생년도:"+ year);
 	}
@@ -26,8 +25,7 @@ public class Method02 {
 
 	// 매개변수도 있고, 반환도 있는 메소드
 	public static String test5(String name, int num) {
-		return name + num;
-		
+		return name + num;	
 		
 	}
 	
@@ -41,24 +39,26 @@ public class Method02 {
 		//		break;
 			}
 		}
-	//	System.out.println("종료되었습니다");
+	 	System.out.println("종료되었습니다");
 	}
-	
-	
-	
 	
 	public static void main(String[] args) {  //시작 지점
 		System.out.println("메인함수 시작");
+		
 		test1();                               // 그다음 test1함수를 호출
 		test2(29, 1994);
-		String name = test3();
+	    String name = test3();                 // String 문자 호출
+		
 		System.out.println(name);
-		System.out.println(test5("김양선", 1));
+		
+		int num = test4();
+		System.out.println(num);
+		
+		System.out.print(test5("김양선,", 10)); // 1 -> 10으로 출력?
+		
 		test6();
-		System.out.println("메인함수 끝");     // return을 쓰지 않았다
 		
-
-		
+		System.out.println("메인함수 끝");     // return을 쓰지 않았다	
 
 	}
 
