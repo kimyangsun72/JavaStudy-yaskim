@@ -26,7 +26,7 @@ public class FactoryMain2 {
 		
 		System.out.println();
 		
-		for(Factory factory : factories) {
+		for(Factory factory : factories) {               // 객체 instanceof 클래스 ; 객체type을 확인하는 연산자
 			if(factory instanceof SmartPhoneFactory) {  // 이 클래스로 생성되면 true 실행/ 자료형 확인
 				SmartPhoneFactory spf = (SmartPhoneFactory) factory;
 				spf.showSmartPhone();

@@ -32,7 +32,7 @@ public class Foreach {
 		//	System.out.print(num);
 			i++;
 			
-			System.out.print(num + (numbers.length-1 !=i ? ", ":""));
+			System.out.print(num + (numbers.length-1 !=i ? " , ":" "));
 			
 		}
 		

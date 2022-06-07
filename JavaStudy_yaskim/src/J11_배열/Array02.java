@@ -32,7 +32,7 @@ public class Array02 {
 		
 		for(int i=0, j=0; i<100; i++) {
 			if(i !=0 && i % 8 ==0) {
-				numbers[j] = i;                     // J 인덱승에 i에 해당하는 8배수를 넣겠다
+				numbers[j] = i;                     // J 인덱에 i에 해당하는 8배수를 넣겠다
 				System.out.println(numbers[j]);
 				System.out.println(i);
 				j++;

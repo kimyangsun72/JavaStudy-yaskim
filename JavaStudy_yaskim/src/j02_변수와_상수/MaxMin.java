@@ -6,7 +6,7 @@ public class MaxMin {
 		final int MAX_NUMBER; /* 상수 표시로 대문자 사용함,, 소문자 시작은 변수&메소드 */
 		MAX_NUMBER = 10;
 		
-		final int MIN_NUMBER = 0;
+		final int MIN_NUMBER = 0; // 상수는 선언 및 값이 들어가 있어야 함
 		
 		
 		
