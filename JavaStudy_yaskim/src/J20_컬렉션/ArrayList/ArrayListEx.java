@@ -1,5 +1,9 @@
 package J20_컬렉션.ArrayList;
-
+// collection - 클래스의 집합
+// interface로 구현
+// List
+// Set
+// Map
 
 	import java.util.ArrayList;
 
